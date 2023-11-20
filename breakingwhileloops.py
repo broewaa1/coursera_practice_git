@@ -11,4 +11,6 @@ def print_range(start, end):
         n += 1 # if you don't add this line, it will be an infinite loop
         #because the value of n will never change
         #print the numbers from "1 2 3 4 5"
+        #need to pay attention to the condition of the while loop
+        # if the condition is always true, it will be an infinite loop
 print_range(1, 5)  # Should print 1 2 3 4 5 (each number on its own line)
